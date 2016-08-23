@@ -1,0 +1,23 @@
+.react-progress-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 1;
+	visibility: visible;
+	z-index: 999;
+}
+.react-progress-bar-on-top {
+	height: 100%;
+}
+.react-progress-bar-hidden {
+	opacity: 0;
+	visibility: hidden;
+	z-index: -10;
+}
+.react-progress-bar-percent {
+	height: 2px;
+	background: #29D;
+	box-shadow: 0 0 10px #29D, 0 0 5px #29D;
+	transition: all 200ms ease;
+}
